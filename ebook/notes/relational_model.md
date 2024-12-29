@@ -21,6 +21,9 @@ A key in a database is a field(or a set of fields) that uniquely identified a tu
 - Candiate key : A field or combination of fields that could serve as a primary key.
 - Primary key : A field or combination of fields that uniquely identifies each record in a table. It cannot contain NULL
                 values. Each table can have only 1 primary key. These are underlined.
+- Foreign key : Foreign key is used to enfore referential integrity constraint, meaning it ensures that the value in the
+                foreign key column corresponds to a valid value in the referenced table.
+                Or simply don't make an abandoned child. And don't add an unknown child element into a table.
 
 ![univerisity-db-schema](./img/university-db-schema.png)
 
