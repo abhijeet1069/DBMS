@@ -81,6 +81,15 @@ OP:
 
 ## JOIN
 
+```sql
+SELECT 
+    COALESCE(firstName , null) AS firstName,
+    COALESCE(lastName , null) AS lastName,
+    COALESCE(city , null) AS city,
+    COALESCE(state, null) AS state
+FROM Person a LEFT JOIN Address b ON a.personId = b.personId;
+```
+
 ![join-in-sql](./img/JOIN.png)
 
 ## Nested Subqueries
