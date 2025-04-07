@@ -58,3 +58,17 @@ Multiple columns in GROUP BY = group by 1st, then inside that group, group by 2n
 - MAX(column) : Largest numerical value in the specified column
 - AVG(column) : Average numerical value in the specified column
 - SUM(column) : Largest numerical value in the specified column
+
+## Complete Query
+
+```sql
+SELECT DISTINCT column, AGG_FUNC(column_or_expression), …
+FROM mytable
+    JOIN another_table
+      ON mytable.column = another_table.column
+    WHERE constraint_expression
+    GROUP BY column
+    HAVING constraint_expression
+    ORDER BY column ASC/DESC
+    LIMIT count OFFSET COUNT;
+```
