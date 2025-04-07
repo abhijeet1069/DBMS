@@ -25,10 +25,6 @@ A key in a database is a field(or a set of fields) that uniquely identified a tu
                 foreign key column corresponds to a valid value in the referenced table.
                 Or simply don't make an abandoned child. And don't add an unknown child element into a table.
 
-![univerisity-db-schema](./img/university-db-schema.png)
-
-![univerisity-schema-diagram](./img/university-schema-diagram.png)
-
 ## Relational Algebra
 
 The relational algebra consists of a set of operations that takes one or two relations as input and produce a new
