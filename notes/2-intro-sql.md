@@ -50,3 +50,11 @@ OP:
 ## Group by
 
 Multiple columns in GROUP BY = group by 1st, then inside that group, group by 2nd, then 3rd, etc.
+
+## Aggregate Functions
+
+- COUNT(*), COUNT(column) : Counts number of rows in the group
+- MIN(column) : Smallest numerical value in the specified column
+- MAX(column) : Largest numerical value in the specified column
+- AVG(column) : Average numerical value in the specified column
+- SUM(column) : Largest numerical value in the specified column
