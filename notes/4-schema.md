@@ -63,3 +63,27 @@ CREATE TABLE IF NOT EXISTS mytable (
 - CHECK (expression) : This allows you to run a more complex expression to test whether the values inserted are valid. For example, you can check that values are positive, or greater than
                          a specific size, or start with a certain prefix, etc.
 - FOREIGN KEY : This is a consistency check which ensures that each value in this column corresponds to another value in a column in another table.
+
+## Altering tables
+
+### Add columns
+
+```sql
+ALTER TABLE mytable
+ADD column DataType OptionalTableConstraint 
+    DEFAULT default_value;
+```
+
+### Removing columns
+
+```sql
+ALTER TABLE mytable
+DROP column_to_be_deleted;
+```
+### Renaming table
+
+```sql
+ALTER TABLE mytable
+RENAME TO new_table_name;
+```
+
