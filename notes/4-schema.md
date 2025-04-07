@@ -4,7 +4,7 @@ In SQL, the database schema is what describes the structure of each table, and t
 
 ## Insert
 
-Add data to thr table
+Add data to the table
 
 ```sql
 INSERT INTO boxoffice
