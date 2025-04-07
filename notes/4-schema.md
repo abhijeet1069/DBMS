@@ -58,7 +58,8 @@ CREATE TABLE IF NOT EXISTS mytable (
 - PRIMARY KEY : This means that the values in this column are unique, and each value can be used to identify a single row in this table.
 - AUTOINCREMENT : For integer values, this means that the value is automatically filled in and incremented with each row insertion. Not supported in all databases.
 - UNIQUE : This means that the values in this column have to be unique, so you can't insert another row with the same value in this column as another row in the table. Differs from the
-  `PRIMARY KEY` in that it doesn't have to be a key for a row in the table.
-- NOT NULL	This means that the inserted value can not be `NULL`.
-- CHECK (expression)	This allows you to run a more complex expression to test whether the values inserted are valid. For example, you can check that values are positive, or greater than a specific size, or start with a certain prefix, etc.
-- FOREIGN KEY	This is a consistency check which ensures that each value in this column corresponds to another value in a column in another table.
+              PRIMARY KEY in that it doesn't have to be a key for a row in the table.
+- NOT NULL : This means that the inserted value can not be NULL.
+- CHECK (expression) : This allows you to run a more complex expression to test whether the values inserted are valid. For example, you can check that values are positive, or greater than
+                         a specific size, or start with a certain prefix, etc.
+- FOREIGN KEY : This is a consistency check which ensures that each value in this column corresponds to another value in a column in another table.
