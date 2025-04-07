@@ -87,3 +87,10 @@ ALTER TABLE mytable
 RENAME TO new_table_name;
 ```
 
+## Dropping tables
+
+Removes the table entirely including all of its data and metadata.
+
+```sql
+DROP TABLE IF EXISTS mytable;
+```
