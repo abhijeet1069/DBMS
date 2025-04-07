@@ -62,8 +62,3 @@ CREATE TABLE IF NOT EXISTS mytable (
 - NOT NULL	This means that the inserted value can not be `NULL`.
 - CHECK (expression)	This allows you to run a more complex expression to test whether the values inserted are valid. For example, you can check that values are positive, or greater than a specific size, or start with a certain prefix, etc.
 - FOREIGN KEY	This is a consistency check which ensures that each value in this column corresponds to another value in a column in another table.
-
-For example, if there are two tables, one listing all Employees by ID, and another listing their payroll information, the `FOREIGN KEY` can ensure that every row in the payroll table corresponds to a valid employee in the master Employee list.
-
-
-
