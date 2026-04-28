@@ -12,8 +12,6 @@
   - (BCNF - optional)
 - Denormalization (when and why)
 
----
-
 ### 2. Indexing
 - What is an Index?
 - B-Tree Index (default)
@@ -22,8 +20,6 @@
 - Composite Index (order matters)
 - When indexes slow down performance (writes, memory)
 
----
-
 ### 3. Transactions & ACID
 - Atomicity
 - Consistency
@@ -31,8 +27,6 @@
 - Durability
 - Commit / Rollback
 - Auto-commit vs Manual transactions
-
----
 
 ### 4. Isolation Levels
 - Read Uncommitted
@@ -45,7 +39,6 @@
 - Non-repeatable Read
 - Phantom Read
 
----
 
 ### 5. Concurrency Control
 - Why locking is needed
@@ -53,7 +46,6 @@
 - Deadlocks (what + prevention)
 - MVCC (basic idea)
 
----
 
 ### 6. Query Execution Basics
 - Full Table Scan vs Index Scan
@@ -61,7 +53,6 @@
 - Query optimization basics
 - Why queries become slow
 
----
 
 ### 7. Constraints & Data Integrity
 - NOT NULL
@@ -70,16 +61,12 @@
 - FOREIGN KEY
 - Cascading (ON DELETE / UPDATE)
 
----
-
 ### 8. Scaling Basics
 - Vertical Scaling
 - Horizontal Scaling
 - Read Replicas
 - Sharding (concept)
 - Caching (DB vs Redis)
-
----
 
 ## ⚡ Must-Know SQL Concepts (you’re already practicing)
 - SELECT, WHERE
@@ -88,7 +75,6 @@
 - Subqueries
 - Index usage in queries
 
----
 
 ## 🚫 Low ROI (Skip or skim)
 - Advanced Normal Forms (4NF, 5NF)
@@ -96,7 +82,6 @@
 - XML Databases
 - Deep storage engine internals
 
----
 
 ## 🧠 Interview Focus
 
@@ -107,13 +92,10 @@ Be able to answer:
 - What isolation level would you use?
 - How do you design a database for a system?
 
----
-
 ## 🔥 Core Focus Summary
 
 Indexing + Transactions + Isolation + Basic Design
 
----
 
 ## 💡 Golden Rule
 

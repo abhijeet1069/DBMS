@@ -1,4 +1,4 @@
-package example;
+package learn.mway;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

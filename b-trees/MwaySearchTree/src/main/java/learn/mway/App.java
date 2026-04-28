@@ -1,4 +1,4 @@
-package example;
+package learn.mway;
 
 /**
  * Hello world!

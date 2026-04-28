@@ -61,7 +61,12 @@ Level 1 (bigger index)
 Actual data (pages)
 ```
 
-## M way search 
+## M way search tree
+
+M way search tree is a generalisation of binary search tree.
+
+![M way search tree](m-way-search-tree.png)
+
 ## B trees
 ## Insertion and Deletion of B trees
 ## B+ trees
