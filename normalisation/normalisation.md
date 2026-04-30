@@ -34,7 +34,7 @@ id | user_id | phone
 ```
 
 ```sql
--- terrible design as repeating groups of data items is not on a single row
+-- terrible design as repeating groups of data items is on a single row
 Player_ID |   Inventory
 jdog21    |  2 amulets, 4 rings
 gila19    |  18 copper coins
