@@ -18,6 +18,26 @@ Or from inside psql:
 Ex : psql -U postgres -d satyam
 ```
 
+### Show connection info
+
+```bash
+# show connection info
+\conninfo
+
+# switch to new db
+\c new_database
+```
+
+### Create DB
+
+```sql
+# Create database
+CREATE DATABASE database_name;
+
+# Show current DB
+SELECT current_database();
+```
+
 ### Show tables in DB
 
 ```bash
@@ -41,6 +61,15 @@ Ex : psql -U postgres -d satyam
 psql -U username -d dbname -f script.sql
 Or inside psql:
 \i script.sql
+```
+### Show current working directory
+
+```bash
+# show current working directory
+\! pwd
+
+# change directory to given directory
+\cd referential-integrity 
 ```
 
 ## Data Types
